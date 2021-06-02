@@ -1,0 +1,48 @@
+
+ROM used:   129/8192 (2%)
+            129/8192 (2%) including unused fragments
+
+            0.2 Average locations per line
+            4.0 Average locations per statement
+
+RAM used:   8/368 (2%) at main() level
+            8/368 (2%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   64    32 100  AlevSavascisi.c
+  661     0   0  C:\Program Files (x86)\PICC\Devices\16F877A.h
+----- -----
+  725    32 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     23  18    0    54  1.5  mesafe_oku
+0    102  79    1   662  4.8  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               2
+    Statements              32
+    Comments                112
+    Volume (V)              788
+    Difficulty (D)          6.4
+    Effort to implement (E) 5015
+    Time to implement (T)   5 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   4
+    Maintainability (MI)    53
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   125  1919  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
